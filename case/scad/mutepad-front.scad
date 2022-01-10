@@ -4,7 +4,7 @@ PLATE_DEPTH = 1.3;
 FRONT_DEPTH = SWITCH_DEPTH + PLATE_DEPTH;
 SWITCH_POSITION = [4.5, 5.25, 0];
 ENCODER_POSITION = [76, 15, 0];
-ENCODER_BODY_SIZE = 12;
+ENCODER_BODY_SIZE = 13; // Actual size is 12mm, but it was too tight a fit so added some clearence
 
 // Front
 difference() {
@@ -48,7 +48,9 @@ difference() {
             }
     }
     // Mutepad text
-    translate([4.5, 2, FRONT_DEPTH - 3])
-        linear_extrude(20)
-        text("MutePad", size = 2.5, font = "tahoma:style=bold");
+    // translate([4.5, 2, FRONT_DEPTH - 3])
+        // linear_extrude(20)
+        // text("MutePad", size = 2.5, font = "tahoma:style=bold");
+    translate([ENCODER_POSITION[0], ENCODER_POSITION[1], 5.5])
+        cube(size = [ENCODER_BODY_SIZE + 1, ENCODER_BODY_SIZE + 1, 8], center = true);
 }
