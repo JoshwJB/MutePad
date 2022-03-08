@@ -18,3 +18,4 @@ A 3D printed under desk mounted keypad with rotary encoder, for muting applicati
 |3|Cherry compatible switches|$0.3 - $1 per switch|[AliExpress Link](https://www.aliexpress.com/item/1005002107758531.html?spm=a2g0o.productlist.0.0.28d514b9BrDpXC&algo_pvid=5b21241f-68e7-4114-92f1-03a80a227005&algo_exp_id=5b21241f-68e7-4114-92f1-03a80a227005-14&pdp_ext_f=%7B%22sku_id%22%3A%2212000020962319192%22%7D&pdp_pi=-1%3B6.5%3B-1%3BUSD+3.84%40salePrice%3BUSD%3Bsearch-mainSearch)|
 
 ## Installing firmware (QMK)
+https://github.com/JoshwJB/qmk_firmware/tree/master/keyboards/mutepad
