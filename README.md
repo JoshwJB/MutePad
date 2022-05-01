@@ -8,8 +8,6 @@ A 3D printed under desk mounted keypad with rotary encoder, for muting applicati
 ![image](https://user-images.githubusercontent.com/15612025/157336673-ad348e3d-4314-4703-afe0-a43a6f73b892.png)
 ![image](https://user-images.githubusercontent.com/15612025/157335150-8491553f-a7dc-462a-a6af-bc4be223b703.png)
 
-## Renders
-
 ## BOM
 | Quantity | Name | Approx Cost | Link |
 |----------|------|-------------|------|
